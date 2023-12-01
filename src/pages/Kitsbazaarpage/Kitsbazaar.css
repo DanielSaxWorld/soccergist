@@ -1,0 +1,49 @@
+.kits-bazaar-page {
+  width: 1512px;
+  height: 2317px;
+  background: #f8f8f8;
+}
+
+.all-jersey-card {
+  float: left;
+  width: 1592px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-left: -89px;
+  gap: 18px;
+  position: absolute;
+  top: 580px;
+  left: 9px;
+}
+
+.featured-house {
+  width: 1509px;
+  display: flex;
+  float: left;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  gap: 16px;
+}
+
+element.style {
+  transition-duration: 0ms;
+  transition-delay: 0ms;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.swiper-wrapper {
+  position: relative;
+  left: 83px;
+  width: 1592px;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  transition-timing-function: var(
+    --swiper-wrapper-transition-timing-function,
+    initial
+  );
+  box-sizing: content-box;
+}

@@ -1,0 +1,455 @@
+.payment-white-board {
+  display: flex;
+  width: 1146px;
+  padding: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  background: #fff;
+  height: 724px;
+  position: absolute;
+  top: 282px;
+  left: 82px;
+}
+
+.top-txt {
+  display: flex;
+  height: 48px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  color: #000;
+  font-family: Archivo;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  position: relative;
+  top: -261px;
+  left: -290px;
+}
+
+.middle-txt {
+  display: flex;
+  height: 64px;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  position: relative;
+  top: -263px;
+  left: 10px;
+}
+
+.first-txt {
+  display: flex;
+  height: 54px;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--Primary, #3d78ac);
+  text-align: center;
+
+  /* body large alt */
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.second-txt {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 16px;
+  color: rgba(0, 0, 0, 0.5);
+
+  /* body large alt */
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.third-txt {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 16px;
+  color: rgba(0, 0, 0, 0.5);
+
+  /* body large alt */
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.text-with-logo {
+  display: flex;
+  height: 112px;
+  padding: 8px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: absolute;
+  top: 180px;
+  left: 68px;
+}
+
+.pay-with-card {
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* body large alt */
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.card-logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.credit-input-1 {
+  display: flex;
+  width: 360px;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  border: 2px solid rgba(0, 0, 0, 0.52);
+  position: relative;
+  top: 170px;
+  left: 161px;
+}
+
+.credit-input-2 {
+  display: flex;
+  width: 360px;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  border: 2px solid rgba(0, 0, 0, 0.52);
+  position: relative;
+  top: 265px;
+  left: 161px;
+}
+
+.credit-input-3 {
+  display: flex;
+  width: 360px;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  border: 2px solid rgba(0, 0, 0, 0.52);
+  position: relative;
+  top: -25px;
+  left: 683px;
+}
+
+.credit-input-4 {
+  display: flex;
+  width: 360px;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  border: 2px solid rgba(0, 0, 0, 0.52);
+  position: relative;
+  top: 74px;
+  left: 683px;
+}
+
+.label-text-1 {
+  flex: 1 0 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+  position: relative;
+  left: 167px;
+  top: 132px;
+}
+
+.label-text-2 {
+  flex: 1 0 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+  position: relative;
+  top: 227px;
+  left: 168px;
+}
+
+.label-text-3 {
+  flex: 1 0 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+  position: relative;
+  top: -60px;
+  left: 679px;
+}
+
+.label-text-4 {
+  flex: 1 0 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+  position: relative;
+  top: 40px;
+  left: 684px;
+}
+
+.pay-btn {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 24px;
+  background: var(--Primary, #3d78ac);
+  color: #fff;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+  border: 0px;
+}
+
+.pay-btn {
+  position: relative;
+  top: 90px;
+  left: 683px;
+  width: 358px;
+  height: 48px;
+}
+
+.pay-line {
+  position: relative;
+  left: 643px;
+  top: 488px;
+}
+
+.deliv {
+  display: flex;
+  height: 48px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  flex: 1 0 0;
+  color: #000;
+  font-family: Archivo;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+  position: relative;
+  top: 29px;
+  left: 3px;
+}
+
+.popup-content-pay {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  left: 268px;
+  top: 100px;
+  background: #fff;
+
+  /* 8dp umbra */
+  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.14);
+  top: 140px;
+  left: 417px;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(235, 227, 227, 0.5);
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-container {
+  backdrop-filter: blur(3px);
+}
+
+.otp-house {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.otp-house-text {
+  flex: 1 0 0;
+  color: #000;
+  text-align: center;
+
+  /* Display Small */
+  font-family: Nexa;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px; /* 122.222% */
+}
+
+.otp-text-house {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.otp-txt {
+  flex: 1 0 0;
+  color: #000;
+  text-align: center;
+
+  /* body large 1 */
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.09px;
+}
+
+.resend-text-house {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.resend-txt-1 {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  color: var(--on-secondary-container-color, #fb0);
+  text-align: center;
+
+  /* body large alt */
+  font-family: Nexa;
+  font-size: 20px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.resend-txt-2 {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  color: var(--on-secondary-container-color, #fb0);
+  text-align: center;
+
+  /* body large alt */
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+  cursor: pointer;
+}
+
+.otp-input {
+  display: flex;
+  width: 360px;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 2px solid rgba(0, 0, 0, 0.52);
+}
+
+.otp-btn {
+  display: flex;
+  width: 224px;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: var(--Primary, #3d78ac);
+  color: #fff;
+  text-align: center;
+  font-family: NexaRegular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.035px;
+  border: 0px;
+}

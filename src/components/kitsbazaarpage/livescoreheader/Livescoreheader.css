@@ -1,0 +1,44 @@
+.live-score-header {
+  display: flex;
+  width: 1272px;
+  height: 157px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 296px;
+  left: 129px;
+}
+
+.header {
+  align-self: stretch;
+  text-align: center;
+
+  /* Display Medium1 */
+  font-family: Nexa;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px; /* 115.556% */
+  background: linear-gradient(94deg, #013c70 23.21%, #fb0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.paragraph {
+  flex: 1 0 0;
+  color: #000;
+  text-align: center;
+
+  /* body large alt */
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+}

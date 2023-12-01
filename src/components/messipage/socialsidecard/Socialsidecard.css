@@ -1,0 +1,64 @@
+.social-side-card {
+  display: flex;
+  width: 300px;
+  height: 393px;
+  padding: 16px;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: #fff;
+
+  /* 8dp Ambient shadow */
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 660px;
+  left: 175px;
+}
+
+.imgi11 {
+  width: 267px;
+  height: 3px;
+}
+
+.social-text1 {
+  height: 17px;
+  flex: 1 0 0;
+  color: #000;
+  font-family: Nexa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 43px;
+  letter-spacing: 0.024px;
+  left: 38px;
+  position: relative;
+  top: -268px;
+}
+
+.twitter-image {
+  position: relative;
+  top: 6px;
+  padding: 3px;
+}
+
+.social-text11 {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.special-textt11 {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-text11:hover {
+  background-color: rgb(237, 237, 237);
+  width: fit-content;
+}

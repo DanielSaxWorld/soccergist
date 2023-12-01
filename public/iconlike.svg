@@ -1,0 +1,22 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-like" clip-path="url(#clip0_1223_1804)">
+<g id="Clip path group">
+<mask id="mask0_1223_1804" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1" y="0" width="25" height="25">
+<g id="clip0_177_65">
+<path id="Vector" d="M23.6023 0.278809H-0.397705V24.2788H23.6023V0.278809Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1223_1804)">
+<g id="Group">
+<path id="Vector_2" d="M7.63823 10.1941V20.9831H16.2762C16.5283 21 17.4022 21.0504 18.2256 20.4454C18.7971 20.0253 19.0659 19.5043 19.1836 19.2522C19.6205 17.1515 20.0406 15.0341 20.4776 12.9334C21.0489 11.2865 19.8054 9.32022 17.8895 9.32022C16.4947 9.32022 15.1166 9.32022 13.7218 9.32022V5.38774C13.7554 3.20304 11.8228 2.22832 10.8145 3.7072C9.75572 5.8751 8.69698 8.0262 7.63823 10.1941Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M4.5629 21.0002H7.6383V10.1943H4.5629C3.70583 10.1943 3 10.9002 3 11.7572V19.4373C3 20.2944 3.70583 21.0002 4.5629 21.0002Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1223_1804">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

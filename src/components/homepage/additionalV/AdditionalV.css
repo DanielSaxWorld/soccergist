@@ -1,0 +1,192 @@
+.Addition-card {
+  display: flex;
+  width: 390px;
+  height: 560px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: #fff;
+  box-shadow: 0px 3px 14px 3px rgba(0, 0, 0, 0.12);
+  position: relative;
+  left: 168px;
+  top: 1240px;
+}
+
+.Addition-card:hover {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #3d78ac;
+  transform: scale(1.01);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.Addition-main-img {
+  height: 284px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 32px;
+  background: url(<./Ronaldo>), lightgray 50% / cover no-repeat;
+}
+
+.Addition-card-details {
+  display: flex;
+  padding: 16px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.Addition-btns {
+  display: flex;
+  padding: 0px 16px;
+  align-items: center;
+  gap: 16px;
+}
+
+.Addition-btn1 {
+  display: flex;
+  width: 127px;
+  height: 59px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  border: 1px solid #000;
+  color: #000;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.09px;
+  position: relative;
+  top: -137px;
+  left: 24px;
+}
+
+.Addition-btn2 {
+  display: flex;
+  height: 59px;
+  width: 127px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  border: 1px solid #000;
+  color: #000;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.09px;
+  position: relative;
+  top: -196px;
+  left: 170px;
+}
+
+.Addtion-card-text {
+  display: flex;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  flex: 1 0 0;
+  color: #000;
+  font-family: Nexa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  position: relative;
+  top: -194px;
+  text-decoration: none;
+}
+
+.Addition-comments {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  top: -215px;
+}
+
+.Addition-comments1 {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  color: #000;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.09px;
+}
+
+.Addition-comments2 {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  color: #000;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.09px;
+}
+.Addition-iconplay {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 188px;
+  top: -152px;
+}
+
+.cardz2 {
+  display: flex;
+  width: 408px;
+  height: 560px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: #fff;
+
+  /* 8dp preunmbra */
+  box-shadow: 0px 3px 14px 3px rgba(0, 0, 0, 0.12);
+}
+
+.Addition-btn {
+  width: 80px;
+  height: 80px;
+  fill: rgba(255, 255, 180, 0.75);
+  left: 158px;
+  top: -220px;
+  position: relative;
+}
+
+
+
+.Addtion:hover {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #3d78ac;
+  transform: scale(1.01);
+  transition: all 0.5s;
+  cursor: pointer;
+}

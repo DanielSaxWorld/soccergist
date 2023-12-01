@@ -1,0 +1,15 @@
+.top-text {
+  align-self: stretch;
+  color: var(--Primary, #3d78ac);
+  text-align: center;
+
+  /* Display Medium1 */
+  font-family: Nexa;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px; /* 115.556% */
+  position: relative;
+  top: 483px;
+  left: -40px;
+}

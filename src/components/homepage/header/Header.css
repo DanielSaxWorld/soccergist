@@ -1,0 +1,955 @@
+.navbar {
+  display: flex;
+  width: 1512px;
+  z-index: 12;
+  flex-wrap: nowrap;
+  padding: 48px 64px 32px 120px;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(
+    94deg,
+    rgba(255, 255, 255, 0.45) 90%,
+    rgba(255, 255, 255, 0.4) 56.46%,
+    rgba(65, 123, 174, 0.61) 95.62%,
+    rgba(255, 227, 40, 0.5) 97.66%
+  );
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  backdrop-filter: blur(7px);
+  transition: all 0.15s ease-in-out;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-start;
+  margin-right: 10rem;
+  position: absolute;
+  left: 415px;
+  gap: 38px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+  color: #fb0;
+  font-size: 20px;
+  margin-right: 2rem;
+}
+
+.soccer-popup {
+  width: 1512px;
+  height: 402px;
+  background: var(--white, #fff);
+  padding: 10px;
+  position: absolute;
+  cursor: pointer;
+  top: 71px;
+  left: -415px;
+  z-index: 1;
+}
+
+.arrow-d1 {
+  position: absolute;
+  top: 23px;
+  left: 199px;
+}
+
+.arrow-d1 a:hover {
+  color: #fb0;
+}
+
+.arrow-d2 {
+  position: absolute;
+  top: 23px;
+  left: 690px;
+}
+
+.soccer-house {
+  display: flex;
+  width: 220px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 16px;
+  border: 2px solid var(--Primary, #3d78ac);
+  position: relative;
+  left: 24px;
+}
+
+.soccer-text-1 {
+  height: 36px;
+  align-self: flex-start;
+  color: var(--Primary, #3d78ac);
+
+  /* Headline Medium */
+  font-family: Nexa;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px; /* 128.571% */
+}
+
+.soccer-text-2 {
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+  align-self: flex-start;
+}
+
+.soccer-text-2-1 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+}
+
+.soccer-text-2-1:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.soccer-text-2-2 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+}
+
+.soccer-text-2-2:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.soccer-text-2-3 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+}
+
+.soccer-text-2-3:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.soccer-text-2-4 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+}
+
+.soccer-text-2-4:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.soccer-text-2-5 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+}
+
+.soccer-text-2-5:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.soccer-text-2-6 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+}
+
+.soccer-text-2-6:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.club-house {
+  display: flex;
+  width: 276.8px;
+  padding: 16px 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 17px;
+  left: 286px;
+}
+
+.club-house-text-1 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.club-house-text-1:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.club-house-text-2 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.club-house-text-2:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.club-house-text-3 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.club-house-text-3:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+.club-house-text-4 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.club-house-text-4:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.club-house-text-5 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.club-house-text-5:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 155px;
+}
+
+.club-house-text-6 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.club-house-text-6:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.club-house-text-7 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.club-house-text-7:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.top-club {
+  color: var(--Primary, #3d78ac);
+  text-align: center;
+  font-family: Nexa;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px;
+  position: relative;
+  top: -345px;
+  left: -118px;
+}
+
+.english-clubs {
+  display: flex;
+  width: 276.8px;
+  padding: 16px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  top: -363px;
+  left: 564px;
+}
+
+.english-clubs-text-1 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.english-clubs-text-1:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.english-clubs-text-2 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.english-clubs-text-2:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.english-clubs-text-3 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.english-clubs-text-3:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.english-clubs-text-4 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.english-clubs-text-4:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.english-clubs-text-5 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.english-clubs-text-5:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.english-clubs-text-6 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.english-clubs-text-6:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.spanish-clubs {
+  display: flex;
+  width: 276.8px;
+  padding: 16px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  top: -650px;
+  left: 856px;
+}
+
+.spanish-clubs-text-1 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.spanish-clubs-text-1:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.spanish-clubs-text-2 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.spanish-clubs-text-2:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.spanish-clubs-text-3 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.spanish-clubs-text-3:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.spanish-clubs-text-4 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.spanish-clubs-text-4:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.spanish-clubs-text-5 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.spanish-clubs-text-5:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.spanish-clubs-text-6 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.spanish-clubs-text-6:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.german-clubs {
+  display: flex;
+  width: 276.8px;
+  padding: 16px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  top: -940px;
+  left: 1098px;
+}
+
+.german-clubs-text-1 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.german-clubs-text-1:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.german-clubs-text-2 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.german-clubs-text-2:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.german-clubs-text-3 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.german-clubs-text-3:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.german-clubs-text-4 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.german-clubs-text-4:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.german-clubs-text-5 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.german-clubs-text-5:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+.german-clubs-text-6 {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.german-clubs-text-6:hover {
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+  width: 240px;
+}
+
+/* 
+
+.nav-logo {
+  display: flex;
+  padding: 8px 4px;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.nav-contents {
+  display: flex;
+  color: black;
+  height: 48px;
+  padding: 0px 110px;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  gap: 45px;
+  font-family: nexa;
+  font-size: 22px;
+}
+
+.dark-mode {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 11px;
+  cursor: pointer;
+  border-radius: 32px;
+  background: #fff;
+  padding-left: 14px;
+  left: 1148px;
+  position: absolute;
+}
+
+.dark-mode2 {
+  border-radius: 14.5px;
+  background-color: black;
+  display: flex;
+  width: 30px;
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.dark-mode1 {
+  width: 30px;
+}
+
+.soccer-popup {
+  width: 1512px;
+  height: 442px;
+  background: var(--white, #fff);
+  padding: 10px;
+  position: absolute;
+  top: 131px;
+  left: 0px;
+  z-index: 1;
+}
+
+.others-pop {
+  width: 1512px;
+  height: 278px;
+  background: var(--white, #fff);
+  padding: 10px;
+  position: absolute;
+  top: 131px;
+  left: 0px;
+} */

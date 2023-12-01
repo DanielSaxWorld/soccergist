@@ -1,0 +1,94 @@
+.home-full-page {
+  width: 1512px;
+  height: 6874px;
+  background: #f8f8f8;
+}
+
+.all-cards {
+  margin-top: -839px;
+  display: grid;
+  gap: 46px;
+  margin-left: 96px;
+}
+
+.middle-card {
+  display: flex;
+  gap: 15px;
+}
+
+.all-tranfer-cards {
+  float: left;
+  width: 1513px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-left: -56px;
+  gap: 16px;
+  left: 55px;
+  position: absolute;
+  top: 4937px;
+  padding-left: 1px;
+  padding-right: 0px;
+}
+
+.right-btn {
+  position: relative;
+  left: 782px;
+  font-size: 1.2rem;
+  padding: 0.2rem 1.8rem;
+  color: rgb(6, 70, 92);
+  border: none;
+  border-radius: 17px;
+  background-color: white;
+  cursor: pointer;
+  display: grid;
+  top: -4px;
+  box-shadow: 0px 3px 14px 3px rgba(0, 0, 0, 0.12);
+}
+
+.left-btn {
+  position: relative;
+  left: 691px;
+  font-size: 1.2rem;
+  padding: 0.2rem 1.8rem;
+  color: rgb(6, 70, 92);
+  border: none;
+  border-radius: 17px;
+  background-color: white;
+  cursor: pointer;
+  display: grid;
+  top: 25px;
+  box-shadow: 0px 3px 14px 3px rgba(0, 0, 0, 0.12);
+}
+
+.All-culture-cards {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  left: 112px;
+  position: absolute;
+  top: 5551px;
+}
+
+.Additional2 {
+  position: relative;
+  top: -578px;
+  left: 410px;
+  display: flex;
+  gap: 16px;
+}
+
+.new-slide {
+  width: 1509px;
+  display: flex;
+  float: left;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  gap: 16px;
+}
+
+.special-text1 a {
+  text-decoration: none;
+}

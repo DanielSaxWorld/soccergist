@@ -1,0 +1,206 @@
+.england-livescore {
+  display: flex;
+  width: 715px;
+  height: 472px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  top: 279px;
+  left: 134px;
+}
+
+.livescore-head {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  align-content: center;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  background: #3d78ac;
+}
+
+.livescore-trend-1 {
+  display: flex;
+  padding: 4px 8px;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.livescore-topic {
+  display: flex;
+  padding: 0px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.topic-text-1 {
+  color: #fff;
+
+  /* body large alt */
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.topic-text-2 {
+  color: #fff;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.live-result-1 {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  background: #fff;
+}
+
+.livescore-time-house {
+  display: flex;
+  width: 70px;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.livescore-time {
+  display: flex;
+  height: 24px;
+  padding: 8px 4px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #000;
+}
+
+.time-text {
+  height: 20px;
+  flex-shrink: 0;
+  align-self: stretch;
+  color: #000;
+  text-align: center;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.club-name-1 {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.club-img-1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.team-name {
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}
+
+.count-house {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.count-no-1 {
+  display: flex;
+  width: 40px;
+  height: 24px;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+}
+
+.count-versus {
+  display: flex;
+  width: 40px;
+  height: 24px;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #000;
+  color: #000;
+  text-align: center;
+
+  /* Label Large */
+  font-family: Nexa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.014px;
+}
+
+.count-no-2 {
+  display: flex;
+  width: 40px;
+  height: 24px;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: var(--hover, rgba(209, 211, 212, 0.38));
+}
+
+.club-name-2 {
+  display: flex;
+  height: 40px;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.team-nime {
+  color: #000;
+
+  /* Title MEDIUM */
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}

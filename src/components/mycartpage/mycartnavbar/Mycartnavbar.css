@@ -1,0 +1,121 @@
+.kits-nav-house-cart {
+  display: flex;
+  width: 1512px;
+  padding: 32px 120px;
+  align-items: center;
+  gap: 32px;
+  background: linear-gradient(
+    94deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(255, 255, 255, 0.9) 56.46%,
+    rgba(65, 123, 174, 0.51) 95.62%,
+    rgba(255, 227, 40, 0.5) 97.66%
+  );
+  position: absolute;
+  top: 117px;
+}
+
+.nav-bar-cart {
+  display: flex;
+  padding: 0px 16px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.profile-cart {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  height: 24px;
+  color: #000;
+
+  /* Body Large */
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.09px;
+  position: absolute;
+  left: 75px;
+}
+
+.my-cart-cart {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  height: 24px;
+  flex: 1 0 0;
+  color: #000;
+
+  /* Body Large */
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.09px;
+  position: absolute;
+  left: 221px;
+  top: 51px;
+}
+
+.input-cart {
+  display: flex;
+  width: 360px;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 2px solid rgba(0, 0, 0, 0.52);
+}
+
+.input-image-cart {
+  position: absolute;
+  top: 52px;
+  left: 381px;
+}
+
+::-webkit-input-placeholder {
+  text-align-last: center;
+}
+
+.enable-cart {
+  display: flex;
+  width: 224px;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: var(--Primary, #3d78ac);
+  align-self: stretch;
+  color: #fff;
+  text-align: center;
+  font-family: NexaRegular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.035px;
+}
+
+.affiliate-cart {
+  display: flex;
+  width: 224px;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 2px solid var(--black, #000);
+}
